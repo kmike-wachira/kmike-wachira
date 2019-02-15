@@ -1,0 +1,50 @@
+body{
+    background-image:images/cr.jpg;
+
+}
+h3{
+    color: brown
+}
+img.img{
+    height:250px;
+    width: 250px;
+}
+p{
+    color:black;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+a{
+    color: violet
+}
+#aspirations{
+    color: red;
+
+}
+h4.r{
+    color: blue
+}
+#skills{
+    color:brown;
+} 
+nav{
+    background-color: brown
+}
+h1.h{
+    color: brown;
+    font-family:"Times New Roman", Times, serif;
+}
+p.p2{
+  font-family: "sans-serif";
+    font-size: 20px;
+}
+ol.li,ul.li{
+    font-size: 20px; 
+    font-family:"Times New Roman", Times, serif;  
+}
+img.image{
+    justify-content:center ;
+     height:400px; 
+     width:400px; 
+}

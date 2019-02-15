@@ -1,0 +1,56 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: silver;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+ul.topnav {
+    list-style-type: none;
+    top: 0px;
+    overflow: hidden; 
+ 
+    width: 100%;
+    margin: 0px 0px 25px  0px;
+    
+}
+li a:hover{
+    background-color: rgb(13, 243, 155);
+    color: mediumseagreen;
+    
+}
+
+   
+
+li a {
+    display: block;
+    
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+li{
+    float: left;;
+
+}
+
+@media screen and (max-width: 800px){
+  
+    ul.topnav li {float: none;
+        /* width: 400px; */
+        /* height: 30px; */
+    }
+}
+
+.body1
+{
+
+margin: 40px;
+ }
+   .foot{
+       bottom: 0;
+   }

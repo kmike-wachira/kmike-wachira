@@ -1,0 +1,26 @@
+h1.head1{
+    color:blueviolet;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px
+    
+}
+h4.hm1,h2.hm2{
+
+    color:brown;
+    font-size: 20px;
+    padding: 0px;
+
+}
+
+body{
+    background-image: url(../images/cr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+p.p1{
+font-family: "Times New Roman", Times, serif;
+font-size:25px
+}
