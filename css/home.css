@@ -22,7 +22,7 @@ font-style: bold;
 
 .polaroid1 {
     width: auto;
-    background-color: white;
+    background-color: whitesmoke;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
   }
@@ -90,6 +90,9 @@ p{
 .col-m-10 {width: 83.33%;}
 .col-m-11 {width: 91.66%;}
 .col-m-12 {width: 100%;}
+.home{
+    font-style: normal;
+}
 
 [class*="col-"] {
     float: none;
