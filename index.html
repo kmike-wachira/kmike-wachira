@@ -4,9 +4,9 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>MIKE</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="w3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">   
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="w3.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/home.css" />
     <!-- <link rel="stylesheet" type="text/css" media="screen" href="nav.css" /> -->
     <style>
@@ -19,7 +19,7 @@
 </head>
 
 <body class="body1">
-    <nav class=" navbar navbar-fixed-top navbar-inverse  ">
+    <nav class="navbar navbar-fixed-top navbar-inverse  ">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -36,9 +36,9 @@
                     </li>
                     <li>
                         <a href="#projects" style="animation-delay: 4s">Projects</a>
-                    </li>
+                    </li>                   
                     <li>
-                        <a href="#">Contact me</a>
+                        <p class="Background" onclick="document.getElementById('id01').style.display='block'"> Background </p>
                     </li>
 
                 </ul>
@@ -46,31 +46,16 @@
             </div>
         </div>
     </nav>
-    <div style="margin:50px">
+    <div style="margin: 100px">
 
     </div>
+   
 
 
 
 
     <div class="layer ">
-        <div class="row skills w3-animate-opacity " id="brief">
-            <!-- <div class="col-1"></div> -->
-            <div class="col-12 col-m-12 brief">
-                <h2 class="w3-animate-left" style="text-align: center;animation-duration: 7s;"></h2>
-                <div class="Brief w3-container w3-center w3-animate-zoom " style="animation-duration: 7s">
-                    <p> I am Kariuki michael Born on 23
-                        <sup>rd</sup>,october 1997.I am from a family of 6 living in a small village in Nakuru county.Raised by
-                        my very abled parents.Kariuki Francis wachira and Nancy Wairimu Kariuki. I really thank the almighty
-                        God for such a of having them in my life.They are always there for us in all that we need provide
-                        for us and never lose hope in us.
-                    </p>
-
-                </div>
-            </div>
-            <!-- <div class="col-1"></div> -->
-
-        </div>
+       
 
 
         <!-- Education -->
@@ -177,14 +162,45 @@
         <div></div>
 
     </div>
-    <footer>
-        <div class="footer">
-        
-        </div>
-    </footer>
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+
+    
+
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-8">
+    <header class="w3-container w3-light-grey"> 
+      <span onclick="document.getElementById('id01').style.display='none'" 
+      class="w3-closebtn">×</span>
+      <h2>my Background</h2>
+    </header>
+    <div class="w3-container">
+            <div class="row skills w3-animate-opacity " id="brief">
+                    <!-- <div class="col-1"></div> -->
+                    <div class="col-12 col-m-12 brief">
+                        <h2 class="w3-animate-left" style="text-align: center;animation-duration: 7s;"></h2>
+                        <div class="Brief w3-container w3-center w3-animate-zoom " style="animation-duration: 7s">
+                            <p> I am Kariuki michael Born on 23
+                                <sup>rd</sup>,october 1997.I am from a family of 6 living in a small village in Nakuru county.Raised by
+                                my very abled parents.Kariuki Francis wachira and Nancy Wairimu Kariuki. I really thank the almighty
+                                God for such a of having them in my life.They are always there for us in all that we need provide
+                                for us and never lose hope in us.
+                            </p>
+        
+                        </div>
+                    </div>
+                    <!-- <div class="col-1"></div> -->
+        
+                </div>
+     
+     
+    </div>
+    
+  </div>
+</div>
+ 
 
 </body>
 

@@ -72,10 +72,17 @@ ol{
     border-radius: 50px;
     background-color: beige;
     padding: 5px;
+    cursor:hand;
 }
 
 p{
     font-size: 25px;
+}
+.Background{
+    font-size: 15px; 
+    padding: 14px;
+    color: white;
+    
 }
 @media screen and (max-width:1000px){
     .col-m-1 {width: 8.33%;}
